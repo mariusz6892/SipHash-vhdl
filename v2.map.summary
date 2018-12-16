@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jun 17 20:18:08 2018
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : v2
+Top-level Entity Name : FPGAX
+Family : Cyclone IV E
+Total logic elements : 2,991
+    Total combinational functions : 2,366
+    Dedicated logic registers : 1,387
+Total registers : 1387
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

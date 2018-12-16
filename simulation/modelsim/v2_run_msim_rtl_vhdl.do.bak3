@@ -1,0 +1,31 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/RS232_INTERFACE_PKG.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/BINTOASCII.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/ASCIITOBIN.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/INITIAL_XOR.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/SIPROUND.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/MIDDLE_XOR.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/LASTMESSAGE_XOR.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/LAST_XOR.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/EXAMPLE2.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/COMMAND_CONTROL.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/SIPHASH.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/SIPHASHSTATES.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/EXAMPLE.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/RS232_TRANSMITTER.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/RS232_STANDARD_INTERFACE.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/RS232_RECEIVER.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/RS232_MEMORY.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/RS232_INTERFACE.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/FPGA.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/FPGA_TB.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/FPGAX.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/FPGAY.vhd}
+vcom -93 -work work {C:/Users/user/Desktop/FPGACOMMEXAMPLE/FPGAY_TB.vhd}
+
